@@ -1,0 +1,88 @@
+
+Intro
+game
+Press a number and hit enter to choose your action. Options will appear or dissapear based on your previous choices. A blank choice means you have not unlocked that choice.
+option
+Start Game
+key:start
+END
+Beginning
+key:start
+You hear a noise from under your racecar bed. You look at the clock, it is 1:30am. 
+option
+look under the bed
+key:MonsterFight
+levelUp 0 1 1
+profileUp
+curious
+sleepy
+option
+go back to sleep
+key:Morning
+levelUp 1 0 0
+profileUp
+tired
+lame
+END
+MonsterFight
+key:MonsterFight
+You look under the bed and you see a pair of eyes on a huge, inhuman silhouette.
+option
+scream
+key:MonsterAttack
+levelUp 0 0 0
+profileUp
+freaking out
+potential threat
+option
+punch
+key:MonsterAttack
+levelUp 10 0 10
+profileUp
+instant regret
+weakling
+END
+MonsterAttack
+key:MonsterAttack
+The monster stares at you for a second and then crawls out from under the bed. Its like 8 feet tall and has a lot of weirdly placed teeth.
+Option
+scream really loud and run
+key:MonsterCatch
+LevelUp 0 1 0
+profileUp
+pooping your pants
+snack time
+option
+attack the monster
+key:MonsterKill
+intReqs 10 0 0
+levelUp 10 0 0
+profileUp
+dead
+yummy
+END
+MonsterCatch
+key:MonsterCatch
+The monster grabs you before you even take three steps. It holds you up to its face and open its mouth wide.
+Option
+Warn your brother to escape
+key:MonsterKill
+levelUp 0 10 200
+profileUp
+pooping your pants
+heroic
+Option
+Stab it with your sword
+key:MonsterKill
+levelUp 0 0 30
+profileUp
+forgot you did not actually have a sword
+stupid
+END
+MonsterKill
+key:MonsterKill
+The monster bites your face off and you die.
+END
+Morning
+key:Morning
+You wake up. There was no monster. Monsters are make-belief, like your parents always told you.
